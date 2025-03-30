@@ -1,4 +1,5 @@
 ## Description
+Create agents that imitate your favorite personas.
 
 ## Usage
 
