@@ -202,7 +202,7 @@ def query_youtube_channel(channel_name: str, query: str, chat_history: json = {}
     response = agent.print_response(prompt, markdown=True, messages=chat_history)
     return response
 
-query_youtube_channel("HealthyGamerGG", "What is the major focus of the knowledge provided?")
+# query_youtube_channel("HealthyGamerGG", "What is the major focus of the knowledge provided?")
 # query_youtube_video("https://www.youtube.com/watch?v=VBifDZwPiI4", """When answering, Think about who would watch a video like this, what questions he would like to answer by watching this video?
 #             Then answer those questions using the information from the video.""")
 
