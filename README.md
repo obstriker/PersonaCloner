@@ -50,8 +50,22 @@ python cloner.py --persona "PersonaName" --server
 ## Example Output
 ![Example Output](photos/example_output.png)
 
-In the example we can see a folder that includes a book and a JSON file describing the persona and its sources. The persona information can be found in the following file:
-- [index/persona.json](index/persona.json)
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+In the example we can see a folder that includes a book and a JSON file describing the persona and its sources. The example persona can be found here:
+```
+{
+    "name": "CodieSanchez",
+    "sources": {
+        "youtube": {
+            "channel_name": "CodieSanchezCT"
+        },
+        "websites": {
+            "urls": ["https://codiesanchez.com/"]
+        },
+        "files": {
+            "pdf": {
+                "path": "CodieSanchez/book.pdf"
+            }
+        }
+    }
+}
+```
