@@ -1,7 +1,7 @@
 # Persona Cloner
 
 ## Overview
-The Persona Cloner is a Python application designed to create and manage persona-based agents that mimic the style and knowledge of specified personas. It utilizes various tools and libraries to facilitate the creation of intelligent agents capable of engaging in meaningful conversations.
+Persona Cloner is an AI-powered tool that can accurately mimic a specific person’s communication style, tone, and knowledge. By indexing a rich dataset—including folders of materials, PDFs, links, YouTube channels, YouTube videos and more—the bot builds a comprehensive profile of the individual.
 
 ## Example Output
 ![Example Output](photos/example_output.png)
