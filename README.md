@@ -35,18 +35,6 @@ python cloner.py --persona "PersonaName" --server
 - Use `--server` to run the FastAPI server.
 - Use `--debug` to run the playground app in debug mode.
 
-## Key Steps in Buying a Business
-1. **Identify What Businesses to Target**: Understand your interests and expertise.
-2. **Find Potential Businesses**: Use networking and door knocking to discover opportunities.
-3. **Conduct Due Diligence**: Avoid unprofitable businesses and ensure clean financials.
-4. **Structure the Deal**: Focus on seller financing and creative terms.
-5. **Transitioning Post-Purchase**: Build rapport with the seller for a smooth transition.
-
-## Related Topics
-- Understanding seller financing options.
-- Key financial metrics to evaluate during due diligence.
-- Strategies for a smooth business transition post-purchase.
-
 ## Example Output
 ![Example Output](photos/example_output.png)
 
