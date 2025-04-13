@@ -44,31 +44,6 @@ def get_youtube_video_id(url):
 
     return None
 
-def index_folder2(directory_path):
-    if directory_path.endswith('.yt'):
-        channel_videos = open(directory_path).readlines()
-
-    knowledge_base = CombinedKnowledgeBase(
-    sources=[
-        PDFKnowledgeBase(
-            vector_db=Qdrant(collection=directory_path, url=qdrant_url, api_key=api_key), path=directory_path
-        ),
-        CSVKnowledgeBase(
-            vector_db=Qdrant(collection=directory_path, url=qdrant_url, api_key=api_key), path=directory_path
-        ),
-        JSONKnowledgeBase(
-            vector_db=Qdrant(collection=directory_path, url=qdrant_url, api_key=api_key), path=directory_path
-        ),
-        TextKnowledgeBase(
-            vector_db=Qdrant(collection=directory_path, url=qdrant_url, api_key=api_key), path=directory_path
-        ),
-        YouTubeKnowledgeBase(
-            vector_db=Qdrant(collection=directory_path, url=qdrant_url, api_key=api_key), urls=channel_videos,
-    )
-    ],
-    vector_db=Qdrant(collection=directory_path, url=qdrant_url, api_key=api_key),
-)
-
 def read_persona_json(file_path):
     with open(file_path, 'r') as f:
         persona_data = json.load(f)
